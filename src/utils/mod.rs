@@ -169,6 +169,7 @@ pub fn new_cmark_parser(text: &str) -> Parser<'_> {
     let mut opts = Options::empty();
     opts.insert(Options::ENABLE_TABLES);
     opts.insert(Options::ENABLE_FOOTNOTES);
+    opts.insert(Options::ENABLE_ADMONITIONS);
     opts.insert(Options::ENABLE_STRIKETHROUGH);
     opts.insert(Options::ENABLE_TASKLISTS);
     Parser::new_ext(text, opts)

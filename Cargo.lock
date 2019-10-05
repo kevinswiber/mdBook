@@ -985,7 +985,7 @@ dependencies = [
 [[package]]
 name = "pulldown-cmark"
 version = "0.5.3-admonitions"
-source = "git+https://github.com/kevinswiber/pulldown-cmark?tag=v0.5.3-admonitions#3da74b9c9b1a0f9b39b0b40e1d18781063b2a229"
+source = "git+https://github.com/kevinswiber/pulldown-cmark?tag=v0.5.3-admonitions#57274b5f5370a75aaaf28dcfbe2223ea300d77bc"
 dependencies = [
  "bitflags 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "getopts 0.2.21 (registry+https://github.com/rust-lang/crates.io-index)",
